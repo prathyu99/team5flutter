@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "489468742702",
+    "firebase_url": "https://events-and-volunteers.firebaseio.com",
+    "project_id": "events-and-volunteers",
+    "storage_bucket": "events-and-volunteers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489468742702:android:0cd336cce203dc78d963bf",
+        "android_client_info": {
+          "package_name": "com.example.togetherness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489468742702-abuhqlmomihloh3deochvamtdjotbf7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7k3Y65g5YqsnBKev2CBSkOm2v0TiL3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489468742702-abuhqlmomihloh3deochvamtdjotbf7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

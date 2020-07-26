@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:togetherness/pages/ActiveEventsPage.dart';
+import 'package:togetherness/pages/AllEvents.dart';
 import 'package:togetherness/pages/DashboardPage.dart';
 import 'package:togetherness/widgets/HeaderWidget.dart';
 
@@ -40,14 +41,14 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: Text("All Events"),
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>ActiveEvents()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>AllEvents()));
                 //change tha class name according to the class name in pages/pagename.dart file
               },
             ),
             ListTile(
               title: Text("My Dashboard"),
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard()));
+               Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard()));
               },
             ),
             //Similarly add other fields if needed
